@@ -1,7 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # Why this project exists
 
 This is a MacOS Calculator project implemented to test and practice JavaScript and React skills with good practicles.
