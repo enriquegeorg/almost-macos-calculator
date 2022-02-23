@@ -1,4 +1,4 @@
-import react, { Component } from 'react';
+import { Component } from 'react';
 import './Calculator.css'
 
 import Button from '../components/Button';
@@ -37,6 +37,7 @@ export default class Calculator extends Component {
 
             const values = {...this.state.values}
             try {
+                // eslint-disable-next-line no-eval
                 values[0] = eval(`${values[0]} ${currentOperation} ${values[1]}`)
             } catch(err) {
                 values[0] = this.state.values[0]
